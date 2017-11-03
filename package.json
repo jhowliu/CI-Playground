@@ -1,0 +1,11 @@
+{
+  "name": "circle-ci",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/jhowliu/CI-Playground.git",
+  "author": "jhow",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
