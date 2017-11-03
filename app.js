@@ -2,10 +2,13 @@ const express = require('express');
 
 const app = express();
 
-app.get('*', async (req, res) => {
-    res.json({ success: true, msg: 'Hello world'});
+app.get('/', (req, res) => {
+  res.send("Hello World");
 });
 
-app.listen(3000, async () => {
+const server = app.listen(3000, () => {
     console.log('Server is listening at port: '+ 3000);
 });
+
+// for testing
+module.exports = server;
