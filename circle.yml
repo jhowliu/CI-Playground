@@ -1,8 +1,8 @@
 # circle.yml
 machine:
-    node: 
-        version: 8.9.0
+  node:
+    version: 8.9.0
 
-test: 
-    override:
-        - npm test 
+test:
+  override:
+    - npm test
